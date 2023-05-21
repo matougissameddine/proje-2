@@ -1,0 +1,30 @@
+body {
+  font-family: lato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/Uchiha_Clan.webp);
+}
+div {
+  padding: 25px;
+  width: 1500px;
+  color: rgb(247, 241, 241);
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: aliceblue;
+}
+td {
+  padding: 30px;
+}
+table,
+th,
+td,
+img {
+  height: 200px;
+  width: 200px;
+}
