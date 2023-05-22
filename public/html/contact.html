@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="./Madara-Uchiwa.html">Madara Uchiwa</a></li>
+        <li><a href="./Itachi-Uchiwa.html">Itachi Uchiwa</a></li>
+        <li><a href="./Sasuke-Uchiwa.html">Sasuke Uchiwa</a></li>
+        <li><a href="./contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="contact-wrapper">
+        <form class="form-horizontal" method="post" action="contact.php">
+          <h1 class="section-header">Posez-nous vos questions !</h1>
+
+          <label for="name">Nom</label>
+          <input type="text" id="name" placeholder="nom" name="name" required />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="email@mail.com"
+            name="email"
+            required
+          />
+
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" placeholder="0600000000" name="phone" />
+
+          <label for="category">Catégorie de question</label>
+          <select id="category" name="category">
+            <option value="Itachi-Uchiwa<">Itachi Uchiwa</option>
+            <option value="Madara-Uchiwa">Madara Uchiwa</option>
+            <option value="Sasuke-Uchiwa">Sasuke Uchiwa</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea rows="10" id="message" name="message" required></textarea>
+
+          <button class="send-button" id="submit" type="submit">Envoyer</button>
+
+          <div class="advert-wrapper">
+            <p>Souhaitez-vous recevoir nos news ?</p>
+            <input
+              type="radio"
+              id="yes"
+              name="news-question"
+              value="yes"
+              checked
+            />
+            <label for="yes">Oui</label>
+            <input type="radio" id="no" name="news-question" value="no" />
+            <label for="no">Non</label>
+          </div>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>

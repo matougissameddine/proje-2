@@ -1,0 +1,98 @@
+body {
+  font-family: lato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/Uchiha_Clan.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 114px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+.sasuke-petit .blocRelative {
+  position: relative;
+  width: 1505px;
+  height: 400px;
+  background: #7b2222;
+  color: aliceblue;
+  padding: 5px;
+  border: 1px solid black;
+}
+.sasuke-petit .blocAbsolute {
+  position: absolute;
+  bottom: 60px;
+  right: 1100px;
+  width: 300px;
+  height: 290px;
+  background: blue;
+  color: aliceblue;
+  padding: 1px;
+}
+
+.sasuke-ado .blocRelative {
+  position: relative;
+  width: 1505px;
+  height: 400px;
+  background: #407b22;
+  color: aliceblue;
+  padding: 5px;
+  border: 1px solid black;
+}
+.sasuke-ado .blocAbsolute {
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+  width: 300px;
+  height: 290px;
+  background: rgb(255, 77, 0);
+  color: aliceblue;
+  padding: 1px;
+}
+
+.sasuke-adulte .blocRelative {
+  position: relative;
+  width: 1505px;
+  height: 400px;
+  background: #d85555;
+  color: aliceblue;
+  padding: 5px;
+  border: 1px solid black;
+}
+.sasuke-adulte .blocAbsolute {
+  position: absolute;
+  bottom: 60px;
+  right: 1100px;
+  width: 300px;
+  height: 290px;
+  background: rgb(110, 202, 79);
+  color: aliceblue;
+  padding: 1px;
+}

@@ -5,10 +5,7 @@ body {
   align-items: center;
   text-align: center;
   background-image: url(../img/Uchiha_Clan.webp);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -34,34 +31,7 @@ nav li a:hover {
   background-color: #111;
 }
 
-div {
-  padding: larger;
-  width: 1500px;
-  color: rgb(207, 23, 57);
-  background-color: aliceblue;
-  border: 3px solid #111;
-}
-h1 {
-  color: rgb(92, 100, 102);
-}
-div,
-p {
-  font-size: 1.2em;
-}
-table,
-th,
-td {
-  border: 2px solid black;
-  padding: 5px;
-  background-color: aliceblue;
-}
-td {
-  padding: 30px;
-}
-table,
-th,
-td,
-img {
-  height: 200px;
-  width: 200px;
+header {
+  margin: 0;
+  padding: 0;
 }
